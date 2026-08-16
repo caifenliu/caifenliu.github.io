@@ -35,7 +35,7 @@ jobs:
           cp assets/css/site.css _site/assets/css/
           cp assets/js/site.js _site/assets/js/
           cp assets/fonts/fa-solid-900.woff2 assets/fonts/fa-brands-400.woff2 assets/fonts/academicons.woff _site/assets/fonts/
-          cp files/Caifen_Liu_Academic_CV.pdf _site/files/
+          cp files/Caifen_Liu_CV.pdf _site/files/
           cp files/research-figures/*.pdf _site/files/research-figures/
           cp images/caifen-liu-profile-long.JPG _site/images/
           cp images/research/*.png _site/images/research/
