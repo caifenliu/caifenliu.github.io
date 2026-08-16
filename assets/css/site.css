@@ -13,26 +13,26 @@
 
 @font-face {
   font-family: "Font Awesome 5 Free";
-  src: url("../fonts/fa-solid-900.woff2") format("woff2");
+  src: url("../fonts/fa-solid-sidebar.woff2") format("woff2");
   font-style: normal;
   font-weight: 900;
-  font-display: block;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Font Awesome 5 Brands";
-  src: url("../fonts/fa-brands-400.woff2") format("woff2");
+  src: url("../fonts/fa-brands-sidebar.woff2") format("woff2");
   font-style: normal;
   font-weight: 400;
-  font-display: block;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Academicons";
-  src: url("../fonts/academicons.woff") format("woff");
+  src: url("../fonts/academicons-sidebar.woff2") format("woff2");
   font-style: normal;
   font-weight: 400;
-  font-display: block;
+  font-display: swap;
 }
 
 [data-theme="dark"] {
