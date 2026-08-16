@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Research by Caifen Liu on causal estimands, bias analysis, observational health data, vaccine effectiveness, and longitudinal methods.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Research | Caifen Liu</title>
+  <link rel="canonical" href="https://caifenliu.github.io/research.html">
+  <link rel="icon" href="images/caifen-liu-profile-long.JPG">
+  <link rel="stylesheet" href="assets/css/site.css?v=20260817">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="site-name" href="index.html">Caifen Liu</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span><span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a class="active" aria-current="page" href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="cv.html">CV</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Use dark theme" title="Use dark theme"><span class="theme-icon" aria-hidden="true"></span></button>
+    </div>
+  </header>
+
+  <main class="site-layout" id="main">
+    <aside class="author-sidebar" aria-label="Profile">
+      <div class="author-avatar"><img src="images/caifen-liu-profile-long.JPG" alt="Portrait of Caifen Liu"></div>
+      <div>
+        <h2 class="author-name">Caifen Liu</h2>
+        <p class="author-role">PhD Candidate in Epidemiology and Biostatistics</p>
+        <p class="author-affiliation">School of Public Health<br>The University of Hong Kong</p>
+      </div>
+      <ul class="author-links">
+        <li><a href="mailto:caifen.liu2@gmail.com"><span class="author-link-icon icon-mail" aria-hidden="true"></span><span>Email</span></a></li>
+        <li><a href="https://scholar.google.com/citations?user=AxFMa1kAAAAJ&hl=en"><span class="author-link-icon icon-google-scholar" aria-hidden="true"></span><span>Google Scholar</span></a></li>
+        <li><a href="https://github.com/caifenliu"><span class="author-link-icon icon-github" aria-hidden="true"></span><span>GitHub</span></a></li>
+        <li><a href="https://www.linkedin.com/in/caifen-liu-8b66222b8"><span class="author-link-icon icon-linkedin" aria-hidden="true"></span><span>LinkedIn</span></a></li>
+      </ul>
+    </aside>
+
+    <article class="page-content">
+      <h1 class="page-title">Research</h1>
+      <p class="lead">My research focuses on developing and applying causal inference methods for observational health data, with the goal of improving causal validity and reducing bias in evidence used for clinical decision-making.</p>
+      <p>My doctoral research examines how study design, causal estimands, and selection mechanisms shape evidence on vaccine effectiveness and disease severity. I work with population-based surveillance and linked hospital data, alongside simulation studies and evidence synthesis.</p>
+      <p>I am especially interested in questions where the population selected for analysis, the endpoint definition, or the timing of exposure changes what an estimate means.</p>
+
+      <section class="content-section" aria-labelledby="interests-title">
+        <h2 id="interests-title">Research interests</h2>
+        <div class="method-groups">
+          <div class="method-group">
+            <h3>Methodology</h3>
+            <p>Causal inference; causal estimands; bias analysis and correction; selection bias; survival analysis; longitudinal data analysis; missing-data methods; and target trial emulation.</p>
+          </div>
+          <div class="method-group">
+            <h3>Applications</h3>
+            <p>Observational studies using electronic health records, registries, cohorts, and hospital data; vaccine and therapeutic evaluation; and comparative effectiveness and safety.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section" id="test-negative-designs" aria-labelledby="tnd-title">
+        <h2 id="tnd-title">Causal estimands and test-negative designs</h2>
+        <div class="research-project">
+          <h3>Vaccine-induced severity attenuation and bias in test-negative estimates</h3>
+          <p class="project-status">Lead-author methods manuscript in preparation</p>
+          <p>Test-negative studies condition analyses on people who seek care and receive testing. If an intervention also changes symptom severity, care seeking, or the probability of entering the study, this conditioning can change the target population and the causal quantity being estimated.</p>
+          <p>My current methodological work formalizes this problem through causal estimands and selection mechanisms. I use simulation studies to assess the magnitude and direction of bias and to evaluate correction approaches under alternative data-generating processes.</p>
+          <figure class="research-figure">
+            <a class="research-figure-image" href="files/research-figures/severity-attenuation-tnd-selection.pdf" target="_blank" rel="noopener">
+              <img src="images/research/severity-attenuation-tnd-selection.png" alt="Conceptual illustration of severity-dependent selection into medically attended and inpatient test-negative samples" loading="lazy">
+            </a>
+            <figcaption>
+              <strong>Severity attenuation and selection into analysed test-negative samples.</strong>
+              Conceptual illustration; dot counts are illustrative and do not represent empirical study results.
+            </figcaption>
+          </figure>
+        </div>
+        <div class="research-project">
+          <h3>Hospital-based test-negative designs for vaccine effectiveness against hospitalization</h3>
+          <p class="project-status">Simulation study in progress</p>
+          <p>An ongoing simulation study examines when hospital-based test-negative design estimates of vaccine effectiveness against hospitalization target the same causal quantity as randomized trial and cohort estimates. Using a shared simulated source population, I separate hospital eligibility and admission, testing and capture, and control-illness composition to identify mechanisms through which estimates diverge across study designs.</p>
+        </div>
+      </section>
+
+      <section class="content-section" id="hospital-fatality-risk" aria-labelledby="hfr-title">
+        <h2 id="hfr-title">Hospital pressure, admission selection, and COVID-19 hospital fatality risk across epidemic periods</h2>
+        <p class="project-status">Lead-author methods manuscript in preparation</p>
+        <p>Building on the linked cohort, this project examines hospital fatality risk as a context-dependent outcome among a selected hospitalised population. It evaluates how admission thresholds, patient risk factors, admission severity mix, and hospital-system pressure shape both entry into the hospitalised denominator and mortality after admission.</p>
+        <p>I use weekly hospital-system summaries, wave-specific generalised additive models, standardised predictions, and counterfactual standardisation to assess how differences in admission severity mix and hospital load contributed to the hospital fatality risk contrast between Hong Kong's fifth and sixth epidemic waves.</p>
+        <figure class="research-figure">
+          <a class="research-figure-image" href="files/research-figures/admission-selection-hospital-pressure-framework.pdf" target="_blank" rel="noopener">
+            <img src="images/research/admission-selection-hospital-pressure-framework.png" alt="Conceptual framework linking epidemic context, patient factors, admission selection, hospital pressure, hospitalized cohort composition, and hospital fatality risk" loading="lazy">
+          </a>
+          <figcaption>
+            <strong>Admission selection, hospital pressure, and observed hospital fatality risk.</strong>
+            Conceptual framework; no patient-level results are shown.
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="content-section" id="linked-health-records" aria-labelledby="ehr-title">
+        <h2 id="ehr-title">COVID-19 severity and in-hospital progression using linked health records</h2>
+        <p class="project-status">Included in doctoral thesis</p>
+        <p>I use linked population-level COVID-19 surveillance and Hospital Authority clinical records in Hong Kong to estimate case hospitalisation risk, hospital fatality risk, and case fatality risk across epidemic waves. I also reconstruct admission severity, peak severity, fixed-time hospital states, critical-care progression, discharge, and in-hospital death.</p>
+        <p>The analyses combine Bayesian severity-pyramid modelling with longitudinal hospital-state summaries, Aalen-Johansen competing-risk estimation, and Cox regression to separate healthcare burden from clinically comparable severity and characterise progression after hospital admission.</p>
+        <figure class="research-figure research-figure--compact">
+          <a class="research-figure-image" href="files/research-figures/severity_trajectory_three_stage_flow.pdf" target="_blank" rel="noopener">
+            <img src="images/research/severity-trajectory-three-stage-flow.png" alt="Patient flows from admission severity to peak severity and final hospital outcome across three COVID-19 epidemic periods" loading="lazy">
+          </a>
+          <figcaption>
+            <strong>In-hospital severity trajectories across epidemic periods.</strong>
+            Observed flows from admission severity to peak severity and final hospital outcome among hospitalised patients.
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="content-section" aria-labelledby="evidence-title">
+        <h2 id="evidence-title">Vaccine effectiveness and epidemiological evidence synthesis</h2>
+        <p class="project-status">Published peer-reviewed papers &middot; First/co-first author</p>
+        <p>My evidence-synthesis work includes systematic reviews and meta-analyses of vaccine-associated attenuation of disease severity, SARS-CoV-2 variant transmissibility, and superspreading. I have also used neutralising-antibody data and immune-correlate models to evaluate the potential efficacy of fractional COVID-19 vaccine doses.</p>
+        <p>Across this work, I examine how differences in endpoint definitions, study populations, and study design contribute to heterogeneity and affect interpretation across evidence sources.</p>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>&copy; <span data-current-year>2026</span> Caifen Liu</p>
+      <p><a href="publications.html">Publications</a> &middot; <a href="files/Caifen_Liu_Academic_CV.pdf">CV (PDF)</a></p>
+    </div>
+  </footer>
+  <script src="assets/js/site.js" defer></script>
+</body>
+</html>
