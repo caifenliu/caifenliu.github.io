@@ -422,6 +422,24 @@ h3 {
   font-weight: 650;
 }
 
+.project-methods,
+.research-project > p.project-methods,
+.content-section > p.project-methods {
+  margin: 0 0 15px;
+  color: var(--muted);
+  font-size: 0.91rem;
+  line-height: 1.55;
+}
+
+.project-methods + .project-methods {
+  margin-top: -7px;
+}
+
+.project-methods strong {
+  color: var(--ink);
+  font-weight: 650;
+}
+
 .topic-list {
   display: grid;
   gap: 25px;
